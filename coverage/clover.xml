@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1606567729822" clover="3.2.0">
+  <project timestamp="1606567729822" name="All files">
+    <metrics statements="201" coveredstatements="0" conditionals="224" coveredconditionals="0" methods="48" coveredmethods="0" elements="473" coveredelements="0" complexity="0" loc="201" ncloc="201" packages="1" files="43" classes="43"/>
+    <file name="add.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\add.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="16" count="0" type="stmt"/>
+    </file>
+    <file name="at.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\at.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="19" count="0" type="stmt"/>
+    </file>
+    <file name="camelCase.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\camelCase.js">
+      <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="capitalize.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\capitalize.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="17" count="0" type="stmt"/>
+    </file>
+    <file name="castArray.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\castArray.js">
+      <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="34" count="0" type="stmt"/>
+      <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="ceil.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\ceil.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="22" count="0" type="stmt"/>
+    </file>
+    <file name="chunk.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\chunk.js">
+      <metrics statements="10" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="25" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+    </file>
+    <file name="clamp.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\clamp.js">
+      <metrics statements="9" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="28" count="0" type="stmt"/>
+    </file>
+    <file name="compact.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\compact.js">
+      <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+    </file>
+    <file name="countBy.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\countBy.js">
+      <metrics statements="7" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+    </file>
+    <file name="defaultTo.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\defaultTo.js">
+      <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="defaultToAny.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\defaultToAny.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="29" count="0" type="stmt"/>
+    </file>
+    <file name="difference.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\difference.js">
+      <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="divide.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\divide.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="16" count="0" type="stmt"/>
+    </file>
+    <file name="drop.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\drop.js">
+      <metrics statements="2" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="endsWith.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\endsWith.js">
+      <metrics statements="9" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="26" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="eq.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\eq.js">
+      <metrics statements="1" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="32" count="0" type="cond" truecount="0" falsecount="3"/>
+    </file>
+    <file name="every.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\every.js">
+      <metrics statements="6" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+    </file>
+    <file name="filter.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\filter.js">
+      <metrics statements="9" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+    </file>
+    <file name="get.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\get.js">
+      <metrics statements="2" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="isArguments.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isArguments.js">
+      <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="isArrayLike.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isArrayLike.js">
+      <metrics statements="1" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="27" count="0" type="cond" truecount="0" falsecount="3"/>
+    </file>
+    <file name="isArrayLikeObject.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isArrayLikeObject.js">
+      <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="isBoolean.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isBoolean.js">
+      <metrics statements="1" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="4"/>
+    </file>
+    <file name="isBuffer.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isBuffer.js">
+      <metrics statements="6" coveredstatements="0" conditionals="17" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="7" count="0" type="cond" truecount="0" falsecount="5"/>
+      <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="isDate.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isDate.js">
+      <metrics statements="4" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="isEmpty.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isEmpty.js">
+      <metrics statements="14" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="49" count="0" type="cond" truecount="0" falsecount="9"/>
+      <line num="52" count="0" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="55" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="59" count="0" type="stmt"/>
+      <line num="61" count="0" type="stmt"/>
+      <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="63" count="0" type="stmt"/>
+      <line num="66" count="0" type="stmt"/>
+    </file>
+    <file name="isLength.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isLength.js">
+      <metrics statements="2" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="29" count="0" type="cond" truecount="0" falsecount="4"/>
+    </file>
+    <file name="isObject.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isObject.js">
+      <metrics statements="2" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="26" count="0" type="cond" truecount="0" falsecount="3"/>
+    </file>
+    <file name="isObjectLike.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isObjectLike.js">
+      <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="isSymbol.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isSymbol.js">
+      <metrics statements="2" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="4"/>
+    </file>
+    <file name="isTypedArray.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\isTypedArray.js">
+      <metrics statements="5" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="keys.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\keys.js">
+      <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="map.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\map.js">
+      <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+    </file>
+    <file name="memoize.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\memoize.js">
+      <metrics statements="13" coveredstatements="0" conditionals="13" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="44" count="0" type="cond" truecount="0" falsecount="5"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="49" count="0" type="stmt"/>
+      <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="52" count="0" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="59" count="0" type="stmt"/>
+      <line num="62" count="0" type="stmt"/>
+    </file>
+    <file name="reduce.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\reduce.js">
+      <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="40" count="0" type="stmt"/>
+      <line num="41" count="0" type="stmt"/>
+    </file>
+    <file name="slice.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\slice.js">
+      <metrics statements="16" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="38" count="0" type="stmt"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="40" count="0" type="stmt"/>
+      <line num="41" count="0" type="stmt"/>
+      <line num="43" count="0" type="stmt"/>
+    </file>
+    <file name="toFinite.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\toFinite.js">
+      <metrics statements="9" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="toInteger.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\toInteger.js">
+      <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+    <file name="toNumber.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\toNumber.js">
+      <metrics statements="18" coveredstatements="0" conditionals="22" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="46" count="0" type="stmt"/>
+      <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="49" count="0" type="stmt"/>
+      <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="58" count="0" type="stmt"/>
+      <line num="59" count="0" type="stmt"/>
+      <line num="60" count="0" type="cond" truecount="0" falsecount="4"/>
+    </file>
+    <file name="toString.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\toString.js">
+      <metrics statements="9" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="38" count="0" type="stmt"/>
+      <line num="39" count="0" type="cond" truecount="0" falsecount="4"/>
+    </file>
+    <file name="upperFirst.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\upperFirst.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="19" count="0" type="stmt"/>
+    </file>
+    <file name="words.js" path="D:\software_testing\COMP.SE.200-2020-assignment\src\words.js">
+      <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+  </project>
+</coverage>

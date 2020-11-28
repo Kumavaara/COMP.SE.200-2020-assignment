@@ -1,14 +1,25 @@
 {
   "name": "software-testing-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repository for software testing group project",
   "main": "index.js",
   "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.1.0",
+    "jest": "^26.6.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
+    "test": "npx jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kumavaara/COMP.SE.200-2020-assignment.git"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "bugs": {
+    "url": "https://github.com/Kumavaara/COMP.SE.200-2020-assignment/issues"
+  },
+  "homepage": "https://github.com/Kumavaara/COMP.SE.200-2020-assignment#readme"
 }
