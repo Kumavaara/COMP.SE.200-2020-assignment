@@ -1,25 +1,22 @@
 {
   "name": "software-testing-assignment",
   "version": "1.0.0",
-  "description": "Repository for software testing group project",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "description": "",
   "main": "index.js",
-  "type": "module",
-  "dependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Antti Kumavaara ja Juho Karhunen",
+  "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.12.7",
+    "babel-jest": "^26.6.3",
     "coveralls": "^3.1.0",
     "jest": "^26.6.3"
-  },
-  "scripts": {
-    "test": "npx jest --coverage"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kumavaara/COMP.SE.200-2020-assignment.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Kumavaara/COMP.SE.200-2020-assignment/issues"
-  },
-  "homepage": "https://github.com/Kumavaara/COMP.SE.200-2020-assignment#readme"
+  }
 }
