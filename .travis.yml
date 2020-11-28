@@ -1,17 +1,12 @@
 language: node_js
 node_js:
-  - 14
+  - 'stable'
 
 install:
-  - npm i
+  - npm ci
 
 script: 
-  - echo "Running tests against $(node-v)..."
-  - npm test
-  - npm coveralls
+  - npm run test:coveralls 
 
-jobs:
-  include:
-    - stage: Produce Coverage
-    - node_js: node
-    - script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage 
+nofication:
+  email: false

@@ -9,7 +9,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:coveralls":  "jest --coverage --coverageReporters=test-lcov | coveralls"
   },
   "author": "Antti Kumavaara ja Juho Karhunen",
   "license": "MIT",
