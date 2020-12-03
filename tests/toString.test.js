@@ -1,6 +1,6 @@
 import toString from '../src/toString'
 
-describe("Testing the toInteger function",() => {
+describe("Testing the toString function",() => {
     test("Nothing given", () => {
         expect(toString(null)).toBe('');
         expect(typeof toString(null)).toBe('string');
