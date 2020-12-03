@@ -1,4 +1,5 @@
 import words from '../src/words'
+
 describe("Testing the words function",() => {
     test("Extra & in text",() => {
         expect(words('fred, bob, maverick, & jonahtan')).toStrictEqual(['fred', 'bob', 'maverick', 'jonahtan']);
