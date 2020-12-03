@@ -1,4 +1,4 @@
-import toInteger from '../src/toInteger'
+import toInteger from '../src/toInteger.js'
 
 describe("Testing the toInteger function",() => {
     test("Positive values",() => {

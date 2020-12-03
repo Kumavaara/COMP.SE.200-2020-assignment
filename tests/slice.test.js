@@ -1,4 +1,4 @@
-import slice from '../src/slice'
+import slice from '../src/slice.js'
 
 describe("Testing the slice function",() => {
     test("Only start given for the array",() => {

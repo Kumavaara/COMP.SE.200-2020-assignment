@@ -1,4 +1,4 @@
-import reduce from '../src/reduce'
+import reduce from '../src/reduce.js'
 
 describe("Testing the reduce function",() => {
     test("Simple reduce",() => {
