@@ -1,6 +1,6 @@
 import slice from '../src/slice'
 
-describe("Testiing the slice function",() => {
+describe("Testing the slice function",() => {
     test("Only start given for the array",() => {
         expect(slice([1, 2, 3, 4, 5], 1)).toStrictEqual([2,3,4,5]);
     });
