@@ -9,7 +9,4 @@ script:
   - npm run test -- --coverage
 
 after_script:
-  - npm run coveralls
-
-nofication:
-  email: false
+  - AQXVIrV707xp5B1w1fGD2euoGE9bH4M1S=$coveralls_repo_token npm run coveralls
