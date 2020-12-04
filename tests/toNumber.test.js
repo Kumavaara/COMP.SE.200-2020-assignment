@@ -1,4 +1,4 @@
-import toNumber from '../src/toNumber'
+import toNumber from '../src/toNumber.js'
 
 describe("Testing the toNumber function",() => {
     test("Positive values",() => {

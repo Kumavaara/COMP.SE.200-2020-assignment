@@ -1,4 +1,4 @@
-import words from '../src/words'
+import words from '../src/words.js'
 
 describe("Testing the words function",() => {
     test("Extra & in text",() => {

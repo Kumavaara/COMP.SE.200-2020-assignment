@@ -1,4 +1,4 @@
-import toString from '../src/toString'
+import toString from '../src/toString.js'
 
 describe("Testing the toString function",() => {
     test("Nothing given", () => {

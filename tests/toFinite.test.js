@@ -1,4 +1,4 @@
-import toFinite from '../src/toFinite'
+import toFinite from '../src/toFinite.js'
 
 describe("Testing the toFinite function",() => {
     test("Positive values",() => {

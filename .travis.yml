@@ -3,10 +3,10 @@ node_js:
   - 'stable'
 
 install:
-  - npm ci
+  - npm i
 
 script: 
-  - npm run test:coveralls 
+  - npm run test -- --coverage
 
-nofication:
-  email: false
+after_script:
+  - AQXVIrV707xp5B1w1fGD2euoGE9bH4M1S=$coveralls_repo_token npm run coveralls
