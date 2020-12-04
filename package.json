@@ -6,6 +6,9 @@
       "@babel/preset-env"
     ]
   },
+  "jest": {
+    "testPathIgnorePatterns": ["src/.internal"]
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
