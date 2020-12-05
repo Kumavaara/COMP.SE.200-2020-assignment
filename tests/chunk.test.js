@@ -10,6 +10,9 @@ describe("Testing the chunk function",() => {
     test("Split in groups of 1",() => {
         expect(chunk(['a', 'b', 'c', 'd'])).toStrictEqual([['a'], ['b'], ['c'], ['d']]);
     });
+    test("Null array",() => {
+        expect(chunk(null)).toStrictEqual([]);
+    });
 
 
 });

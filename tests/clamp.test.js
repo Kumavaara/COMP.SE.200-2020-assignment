@@ -17,4 +17,8 @@ describe("Testing the clamp function",() => {
         expect(clamp(10, -100, 100)).toBe(10);
     });
 
+    test("Zero bounds",() => {
+        expect(clamp(10, 0, 0)).toBe(0);
+    });
+
 });

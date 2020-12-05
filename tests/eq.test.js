@@ -24,6 +24,9 @@ describe("Testing the eq function",() => {
         expect(eq(arr1, arr2)).toEqual(false);
     });
 
+    test("compairing nulls",() => {
+        expect(eq(null, null)).toEqual(true);
+    });
 
 
 });

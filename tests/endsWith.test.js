@@ -13,4 +13,13 @@ describe("Testing the endsWith function",() => {
         expect(endsWith(testString, "t", 10)).toBe(false);
     });
 
+    test("test letter at 0 index",() => {
+        expect(endsWith(testString, "", 0)).toBe(true);
+    });
+
+    test("test letter at negative index",() => {
+        expect(endsWith(testString, "T", -1)).toBe(false);
+    });
+
+
 });

@@ -22,5 +22,9 @@ describe("Testing the drop function",() => {
     test("Undefined amount",() => {
         expect(drop([1, 2, 3],undefined)).toStrictEqual([2, 3]);
     });
+
+    test("Null",() => {
+        expect(drop(null,1)).toStrictEqual([]);
+    });
     
 });

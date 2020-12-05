@@ -16,5 +16,10 @@ describe("Testing the difference function",() => {
     test("Second one is empty",() => {
         expect(difference([2, 1], [])).toStrictEqual([2, 1]);
     });
+    test("Same array",() => {
+        expect(difference([2, 1], [2,1])).toStrictEqual([]);
+    });
+
+    
 
 });
