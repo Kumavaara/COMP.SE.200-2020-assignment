@@ -21,4 +21,28 @@ describe("Testing the isEmpty function",() => {
         expect(isEmpty([null])).toBe(false);
     });
 
+    
+    test("Testing an empty set",() => {
+        let testSet = new Set()
+        expect(isEmpty(testSet)).toBe(true);
+    });
+
+    test("Testing an set",() => {
+        let testSet = new Set()
+        testSet.add(1)
+        expect(isEmpty(testSet)).toBe(false);
+    });
+
+    
+    test("Testing an prototype",() => {
+
+        function Prototype(){
+            this.prototype = ''
+        }
+
+        var testPrototype = new Prototype()
+        testPrototype.prototype = 'Test'
+        expect(isEmpty(testPrototype)).toBe(false);
+    });
+
 });

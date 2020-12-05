@@ -13,4 +13,15 @@ describe("Testing the isDate function",() => {
         expect(isDate(null)).toBe(false);
     });
 
+    test("Boolean", () => {
+        expect(isDate(true)).toBe(false);
+    });
+
+
+    test("Date of an object", () => {
+        const milk = [new Date]
+        expect(isDate(milk)).toBe(true);
+    });
+
+
 });

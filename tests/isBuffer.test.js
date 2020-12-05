@@ -9,4 +9,8 @@ describe("Testing the isBuffer",() => {
         expect(isBuffer(new Array(5))).toBe(false);
     });
 
+    test("Buffer of null", () => {
+        expect(isBuffer(Buffer.alloc(10))).toBe(true);
+    });
+
 });
