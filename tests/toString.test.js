@@ -20,4 +20,10 @@ describe("Testing the toString function",() => {
         expect(typeof toString(-Infinity)).toBe('string');
     });
 
+    test("Symbol", () => {
+        let testSymbol = Symbol("test")
+        expect(toString(testSymbol)).toBe("Symbol(test)");
+        expect(typeof toString("Symbol(test)")).toBe('string');
+    });
+
 });

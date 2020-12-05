@@ -30,4 +30,17 @@ describe("Testing the toNumber function",() => {
         expect(typeof toNumber(0b1111)).toBe('number');
     })
 
+    test("Symbol", () => {
+        let testSymbol = Symbol("test")
+        expect(toNumber(testSymbol)).toBe(NaN);
+    });
+
+    test("Number", () => {
+        expect(toNumber(Number(5))).toBe(5);
+    });
+
+    test("An object", () => {
+        expect(toNumber(Function)).toBe(NaN);
+    });
+
 });

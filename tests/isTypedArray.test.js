@@ -2,7 +2,7 @@ import isTypedArray from '../src/isTypedArray.js'
 
 describe("Testing the isTypedArray function",() => {
     test("Typed array created with new",() => {
-        expect(isTypedArray(new Int16Array)).toBe(true);
+        expect(isTypedArray(new Int16Array([1,2,3]))).toBe(true);
     });
 
     test("Non typed array",() => {
