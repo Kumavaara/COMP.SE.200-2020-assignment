@@ -26,4 +26,10 @@ describe("Testing the toString function",() => {
         expect(typeof toString("Symbol(test)")).toBe('string');
     });
 
+    test("String", () => {
+        expect(toString("Test string")).toBe("Test string");
+        expect(typeof toString("Test string")).toBe('string');
+    });
+
+
 });
