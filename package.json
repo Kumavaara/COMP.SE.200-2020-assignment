@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage --collectCoverageFrom COMP.SE.200-2020-assignment/src/*.js",
+    "test:coverage": "jest --coverage --collectCoverageFrom=src/*.js",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "author": "Antti Kumavaara ja Juho Karhunen",
