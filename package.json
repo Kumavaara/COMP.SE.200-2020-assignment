@@ -1,8 +1,5 @@
 {
   "name": "software-testing-assignment",
-  "jest": {
-    "testPathIgnorePatterns" : ["COMP.SE.200-2020-assignment/src/.internal"]
-  },
   "version": "1.0.0",
   "babel": {
     "presets": [
@@ -13,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage",
+    "test:coverage": "jest --coverage --collectCoverageFrom COMP.SE.200-2020-assignment/src/*.js",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "author": "Antti Kumavaara ja Juho Karhunen",
