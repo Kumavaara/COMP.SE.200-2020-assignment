@@ -43,4 +43,16 @@ describe("Testing the toNumber function",() => {
         expect(toNumber(Function)).toBe(NaN);
     });
 
+    test("An array", () => {
+        expect(toNumber([1])).toBe(1);
+    });
+
+    test("Binary", () => {
+        expect(toNumber(0b0010)).toBe(2);
+    });
+
+    test("Self", () => {
+        expect(toNumber(toNumber('5'))).toBe(5);
+    });
+
 });
