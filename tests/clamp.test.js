@@ -21,4 +21,16 @@ describe("Testing the clamp function",() => {
         expect(clamp(10, 0, 0)).toBe(0);
     });
 
+    test("Invalid boundaries",() => {
+        expect(clamp(10, 'test', 'test')).toBe(0);
+    });
+
+    test("Invalid value",() => {
+        expect(clamp('test', -1, 1)).toBe(NaN);
+    });
+
+    test("Clamps in wrong order",() => {
+        expect(clamp(10, 1, -1)).toBe(1);
+    });
+
 });

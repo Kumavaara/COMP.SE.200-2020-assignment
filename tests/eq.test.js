@@ -3,17 +3,17 @@ import eq from '../src/eq.js'
 describe("Testing the eq function",() => {
 
     const obj1 = 'Milk'
-    const obj2 = 'Milk'
-    const obj3 = 'Water'
+    const obj2 = 'Water'
+
 
     const arr1 = [1,2,3]
     const arr2 = [1,2,3]
     test("Comparing same objects",() => {
-        expect(eq(obj1, obj2)).toBe(true);
+        expect(eq(obj1, obj1)).toBe(true);
     });
 
     test("Comparing different objects",() => {
-        expect(eq(obj1, obj3)).toBe(false);
+        expect(eq(obj1, obj2)).toBe(false);
     });
 
     test("Comparing same arrays",() => {
@@ -28,5 +28,8 @@ describe("Testing the eq function",() => {
         expect(eq(null, null)).toEqual(true);
     });
 
+    test("compairing string and object",() => {
+        expect(eq('Milk', obj1)).toEqual(true);
+    });
 
 });

@@ -20,6 +20,21 @@ describe("Testing the difference function",() => {
         expect(difference([2, 1], [2,1])).toStrictEqual([]);
     });
 
+    test("second one null",() => {
+        expect(difference([2, 1], null)).toStrictEqual([2,1]);
+    });
+
+    test("both are null",() => {
+        expect(difference(null, null)).toStrictEqual([]);
+    });
+
+    test("Only one array",() => {
+        expect(difference([2,1])).toStrictEqual([2,1]);
+    });
+
+    test("Only one null",() => {
+        expect(difference(null)).toStrictEqual([]);
+    });
     
 
 });

@@ -21,5 +21,9 @@ describe("Testing the endsWith function",() => {
         expect(endsWith(testString, "T", -1)).toBe(false);
     });
 
+    test("Position > Length",() => {
+        expect(endsWith(testString, "T", 100)).toBe(false);
+    });
+
 
 });
