@@ -59,4 +59,12 @@ describe("Testing the toNumber function",() => {
         expect(toNumber("test string")).toBe(NaN);
     });
 
+    test("Octal", () => {
+        expect(toNumber(0o51)).toBe(41);
+    });
+
+    test("Octal string", () => {
+        expect(toNumber('0o51')).toBe(41);
+    });
+
 });

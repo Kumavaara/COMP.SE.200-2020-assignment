@@ -19,8 +19,8 @@ describe("Testing the isDate function",() => {
 
 
     test("Date of an object", () => {
-        const milk = [new Date]
-        expect(isDate(milk)).toBe(true);
+        let string = String('Sun December 6 2020')
+        expect(isDate(string)).toBe(false);
     });
 
 

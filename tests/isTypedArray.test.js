@@ -21,4 +21,9 @@ describe("Testing the isTypedArray function",() => {
         expect(isTypedArray([])).toBe(false);
     });
 
+    test("String",() => {
+        let string = String('[1,2,3]')
+        expect(isTypedArray(string)).toBe(false);
+    });
+
 });

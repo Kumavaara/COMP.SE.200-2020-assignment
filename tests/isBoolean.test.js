@@ -9,4 +9,9 @@ describe("Testing the isBoolean function",() => {
         expect(isBoolean(null)).toBe(false);
     });
 
+    test("Boolean object",() => {
+        let bool = new Boolean(true)
+        expect(isBoolean(bool)).toBe(true);
+    });
+
 });
