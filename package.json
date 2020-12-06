@@ -1,5 +1,6 @@
 {
   "name": "software-testing-assignment",
+  "jest" : {"testPathIgnorePatterns" : ["src/.internal"]}
   "version": "1.0.0",
   "babel": {
     "presets": [
