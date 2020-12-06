@@ -1,5 +1,4 @@
 import isArguments from '../src/isArguments.js'
-import add from '../src/add.js'
 
 
 describe("Testing the isArguments function",() => {
