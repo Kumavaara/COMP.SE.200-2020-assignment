@@ -35,14 +35,13 @@ describe("Testing the isEmpty function",() => {
 
     
     test("Testing an prototype",() => {
+        let number = Number.prototype
+        expect(isEmpty(number)).toBe(true);
+    });
 
-        function Prototype(){
-            this.prototype = ''
-        }
-
-        var testPrototype = new Prototype()
-        testPrototype.prototype = 'Test'
-        expect(isEmpty(testPrototype)).toBe(false);
+    test("empty object value",() => {
+        const object = {}
+        expect(isEmpty(object)).toBe(true);
     });
 
 });

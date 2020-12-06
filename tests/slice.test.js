@@ -17,4 +17,17 @@ describe("Testing the slice function",() => {
     test("Both negative", ()=>{
         expect(slice([1, 2, 3, 7, 5], -3, -1)).toStrictEqual([3,7]);
     });
+
+    test("empty array", ()=>{
+        expect(slice([], -3, -1)).toStrictEqual([]);
+    });
+
+    test("null starting number", ()=>{
+        expect(slice([1,2,3], null, 1)).toStrictEqual([1], [2], [3]);
+    });
+
+    test("0 Lenght", ()=>{
+        expect(slice([1,2,3], 1, 0)).toStrictEqual([]);
+    });
+
 });

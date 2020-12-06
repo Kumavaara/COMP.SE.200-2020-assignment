@@ -17,4 +17,8 @@ describe("Testing the isTypedArray function",() => {
         expect(isTypedArray([1,2,3,4])).toBe(false);
     });
 
+    test("empty array",() => {
+        expect(isTypedArray([])).toBe(false);
+    });
+
 });

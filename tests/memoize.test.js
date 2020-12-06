@@ -2,7 +2,7 @@ import memoize from '../src/memoize.js'
 
 describe("Testing the memoize function",() => {
     const object = {'a' : 1, 'b' : 2}
-    const other = {'c': 3, 'd': 4}
+    const other = {}
 
 
     test("Example test",() => {
@@ -19,7 +19,14 @@ describe("Testing the memoize function",() => {
     test("Replacing cache",() => {
         const values = memoize(Object.values)
         memoize.Cache = WeakMap
-        expect(values(other)).toStrictEqual([3,4]);
+        values.cache.set(other, ['x', 'd'])
+        expect(values(other)).toStrictEqual(['x', 'd']);
+    });
+
+    test("Errortest",() => {
+        expect(() => {
+            memoize(null, null)
+        }).toThrow(TypeError)
     });
 
 });

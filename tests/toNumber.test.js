@@ -36,7 +36,7 @@ describe("Testing the toNumber function",() => {
     });
 
     test("Number", () => {
-        expect(toNumber(Number(5))).toBe(5);
+        expect(toNumber(new Number(5))).toBe(5);
     });
 
     test("An object", () => {
@@ -53,6 +53,10 @@ describe("Testing the toNumber function",() => {
 
     test("Self", () => {
         expect(toNumber(toNumber('5'))).toBe(5);
+    });
+
+    test("string", () => {
+        expect(toNumber("test string")).toBe(NaN);
     });
 
 });
