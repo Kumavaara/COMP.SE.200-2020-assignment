@@ -10,8 +10,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage",
-    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+    "test:coverage": "jest --coverage --collectCoverageFrom=src/*.js",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls --collectCoverageFrom=src/*.js"
   },
   "author": "Antti Kumavaara ja Juho Karhunen",
   "license": "MIT",
