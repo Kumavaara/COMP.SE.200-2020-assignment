@@ -6,7 +6,8 @@ install:
   - npm i
 
 script: 
-  - npm run test -- --coverage
+  - npm run test
+  - npm run test:coveralls
 
 after_script:
   - npm run coveralls
