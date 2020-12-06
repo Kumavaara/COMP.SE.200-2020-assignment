@@ -1,6 +1,6 @@
 {
   "name": "software-testing-assignment",
-  "jest" : {"testPathIgnorePatterns" : ["<rootDir>/src/.internal/"]},
+  "jest" : {"collectCoverageFrom" : ["<rootDir>/src/*.js", "!<rootDir>/src/.internal/*.js"]},
   "version": "1.0.0",
   "babel": {
     "presets": [
