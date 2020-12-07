@@ -15,5 +15,5 @@ deploy:
   provider: s3
   access_key_id: AWSAccessKeyId
   secret_access_key: AWSSecretAccessKey
-  bucket: "S3 Bucket"
+  bucket: "software-testing-assignment"
   skip_cleanup: true
