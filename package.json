@@ -12,7 +12,7 @@
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage --collectCoverageFrom=src/*.js",
-    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls --collectCoverageFrom=src/*.js"
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls --collectCoverageFrom=src/*.js && coveralls < coverage/lcov.info"
   },
   "author": "Antti Kumavaara ja Juho Karhunen",
   "license": "MIT",

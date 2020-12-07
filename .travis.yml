@@ -11,9 +11,8 @@ script:
 after_script:
   - npm run coveralls
 
-deploy:
-  provider: s3
-  access_key_id: AWSAccessKeyId
-  secret_access_key: AWSSecretAccessKey
-  bucket: "software-testing-assignment"
-  skip_cleanup: true
+addons:
+  artifacts:
+    paths:
+      - ./coverage/lcov-report
+    target_paths: $TRAVIS_BUILD_NUMBER
