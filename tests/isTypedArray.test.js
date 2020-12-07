@@ -9,15 +9,15 @@ describe("Testing the isTypedArray function",() => {
         expect(isTypedArray(new Array)).toBe(false);
     });
 
-    test("null",() => {
+    test("Null",() => {
         expect(isTypedArray(null)).toBe(false);
     });
 
-    test("normal array",() => {
+    test("Normal array",() => {
         expect(isTypedArray([1,2,3,4])).toBe(false);
     });
 
-    test("empty array",() => {
+    test("Empty array",() => {
         expect(isTypedArray([])).toBe(false);
     });
 

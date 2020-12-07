@@ -5,7 +5,7 @@ describe("Testing the camelCase function",() => {
         expect(camelCase("Test Word")).toEqual("testWord");
     });
 
-    test("special charecters", () => {
+    test("special characters", () => {
         expect(camelCase("Test--Word??")).toEqual("testWord");
     });
 });

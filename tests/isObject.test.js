@@ -4,10 +4,10 @@ describe("Testing the isObject function",() => {
     test("Array",() => {
         expect(isObject([1,2,3])).toBe(true);
     });
-    test("function",() => {
+    test("Function",() => {
         expect(isObject(isObject)).toBe(true);
     });
-    test("null",() => {
+    test("Null",() => {
         expect(isObject(null)).toBe(false);
     });
     test("String",() => {

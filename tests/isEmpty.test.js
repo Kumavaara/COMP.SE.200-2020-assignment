@@ -39,7 +39,7 @@ describe("Testing the isEmpty function",() => {
         expect(isEmpty(number)).toBe(true);
     });
 
-    test("empty object value",() => {
+    test("Empty object value",() => {
         const object = {}
         expect(isEmpty(object)).toBe(true);
     });

@@ -15,7 +15,7 @@ describe("Testing the add function",() => {
         expect(keys("Test")).toStrictEqual(["0",'1','2','3']);
     });
 
-    test("null",() => {
+    test("Null",() => {
         expect(keys(null)).toStrictEqual([]);
     });
 

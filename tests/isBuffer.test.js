@@ -5,7 +5,7 @@ describe("Testing the isBuffer",() => {
         expect(isBuffer(new Buffer(5))).toBe(true);
     });
 
-    test("not a buffer", () => {
+    test("Not a buffer", () => {
         expect(isBuffer(new Array(5))).toBe(false);
     });
 

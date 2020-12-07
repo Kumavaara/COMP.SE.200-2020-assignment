@@ -9,11 +9,11 @@ describe("Testing the clamp function",() => {
         expect(clamp(-5, -1, 1)).toBe(-1);
     });
 
-    test("value inbetween the bounds",() => {
+    test("value in between the bounds",() => {
         expect(clamp(0, -1, 1)).toBe(0);
     });
 
-    test("value inbetween bigger bounds",() => {
+    test("value in between bigger bounds",() => {
         expect(clamp(10, -100, 100)).toBe(10);
     });
 

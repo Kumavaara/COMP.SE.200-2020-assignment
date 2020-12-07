@@ -5,7 +5,7 @@ describe("Testing the isBoolean function",() => {
         expect(isBoolean(false)).toBe(true);
     });
 
-    test("not a boolean",() => {
+    test("Not a boolean",() => {
         expect(isBoolean(null)).toBe(false);
     });
 
